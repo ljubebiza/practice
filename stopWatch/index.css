@@ -1,0 +1,10 @@
+div{
+    padding: 10%;
+    font-size: 27px;
+}
+ul{
+    margin-left: 85px;
+}
+li{
+   display: inline;
+}

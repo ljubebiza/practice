@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Stop watch  object</h1>
+    Dobio sam zadatak da napravim objekat stop watch, kad mu je je izvrsen prpertu start da se okrene, kad je opet izvrsen prperty start da kaze err jer je vec sw pokrenut i kad pritisne stop da stane, kad se opet pritisne stop da kaze err nije sw ni pokrenut i da ima prperti duration da pokaze koliko sekundi je proslo od prperti start i stop. znaci imam sw.start, sw.stop i sw.duration
+Mo je razmisljanje treba da napravim funkciju StopWatch(){
+let time = 0;
+Object.defineProperty(this, "time",{
+get:function()
+<div id="StopWatch">
+    00:00:00
+</div>
+<ul>
+    <li><button id="Start">Start</button></li>
+    <li><button id="Stop">Stop</button></li>
+    <li><button id="Reset">Reset</button></li>
+</ul>
+<script src="sw.js"></script>
+</body>
+</html>
