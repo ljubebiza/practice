@@ -32,8 +32,10 @@ function counting(){
    }
 
 function startSw(){
-   stopTime = false;
-   counting();
+   if(stopTime === true){
+       stopTime = false
+       counting();
+   }
    
 }
 
@@ -67,9 +69,9 @@ const list = document.getElementById('list')
 list.addEventListener('click', (e) => {
     const el = e.target;
     console.log(el)
-    if(el.id = 'Stop')stopSw()
-    if(el.id = 'Start')startSw()
-    // if(el.id = 'Reset')resetSw()
-},false)
+    if(el.id ==='Stop')stopSw()
+    if(el.id === 'Start')startSw()
+    if(el.id === 'Reset')resetSw()
+})
 
 
