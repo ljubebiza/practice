@@ -6,7 +6,7 @@ var  hour = 0;
 var time;
 
 function counting(){
-    if(stopTime != true){
+    if(stopTime == false){
            sec++
        
    
@@ -68,7 +68,6 @@ const list = document.getElementById('list')
 
 list.addEventListener('click', (e) => {
     const el = e.target;
-    console.log(el)
     if(el.id ==='Stop')stopSw()
     if(el.id === 'Start')startSw()
     if(el.id === 'Reset')resetSw()
